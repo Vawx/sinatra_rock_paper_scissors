@@ -1,1 +1,68 @@
-<h1>Rock paper scissors</h1>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Rock, Paper, Scissors!</h1>
+    <p class="description">Let's play Rock, Paper, Scissors</p>
+  </div>
+</div>
+
+<form action="/result"> <!-- to TITLE.ERB -->
+  <div class="wrapper"  style="text-align: center;">
+      <div class="container">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <div class="well">
+            <div class=""><h2>Player One</h2></div>
+
+              <div class="btn-group" data-toggle="buttons">
+                <div class="wrapper btn-xlarge">
+                  <label class="btn btn-success active">
+                    <input type="radio" name="options_one" value="0" checked autocomplete="off"> ROCK
+                  </label>
+              </div>
+
+              <div class="wrapper btn-xlarge">
+                <label class="btn btn-danger">
+                  <input type="radio" name="options_one" value="1" autocomplete="off"> PAPER
+                </label>
+              </div>
+
+              <div class="wrapper btn-xlarge">
+                <label class="btn btn-warning">
+                  <input type="radio" name="options_one" value="2" autocomplete="off"> SCISSORS
+                </label>
+              </div>
+              </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="well">
+            <div class=""><h2>Player Two</h2></div>
+            <div class="btn-group" data-toggle="buttons">
+              <div class="wrapper btn-xlarge">
+                <label class="btn btn-success active">
+                  <input type="radio" name="options_two" value="3" checked autocomplete="off"> ROCK
+                </label>
+            </div>
+
+            <div class="wrapper btn-xlarge">
+              <label class="btn btn-danger">
+                <input type="radio" name="options_two" value="4" autocomplete="off"> PAPER
+              </label>
+            </div>
+
+            <div class="wrapper btn-xlarge">
+              <label class="btn btn-warning">
+                <input type="radio" name="options_two" value="5" autocomplete="off"> SCISSORS
+              </label>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container" style="text-align: center;">
+      <button type="submit" class="btn-primary btn-xlarge" id="send">Send</button>
+</div>
+</form>

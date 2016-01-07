@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Trade+Winds);
+@import url(https://fonts.googleapis.com/css?family=Cuprum:400,400italic);
+
+* {
+  font-family: 'Trade Winds', cursive;
+}
+
+.description {
+  font-family: 'Cuprum';
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
+.spacer {
+  padding: 15px;
+}
